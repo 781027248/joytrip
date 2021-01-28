@@ -1,0 +1,111 @@
+.Pheadbox {
+	width: 100%;
+	height: 60px;
+	background-color:#fff;
+	border: 1px solid #ccc;
+	color: rgb(85, 84, 84);
+}
+.Phead {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.ph-titel{
+	display: flex;
+	width: 100%;
+	height: 58px;
+	box-sizing: border-box;
+}
+.ph-titel li{
+	display: inline-block;
+	list-style: none;
+	width: 120px;
+	height: 100%;	
+	text-align: center;
+	line-height: 60px;
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* hover样式 */
+.ph-titel li:hover{
+	color: #ff9d00;
+	border-bottom: 3px solid  #ff9d00;
+	cursor: pointer;
+}
+/* logo样式设置 */
+#ph-logo{
+	width: 150px;
+	text-align: center;
+	background-color: beige;
+}
+#ph-logo:hover {
+	border: none;
+}
+/* 首页 */
+.ph-active{
+	padding: 0 16px;
+	background-color: #ff9d00;
+	color: #fff;
+}
+.ph-titel>.ph-active:hover {
+	color: #FFFFFF;
+}
+/* 火车票 */
+#ph-Ticket{
+	width: 130px;
+}
+
+.ph-tj div{
+	/* box-sizing: border-box; */
+	/* border: 0 solid #fff !important; */
+	font-size: 16px !important;
+	height: 60px;
+	position: absolute;
+	top: -8px;
+}
+
+.ph-ticketactive .ph-tj div {
+	color: #FFFFFF;
+	background-color: #ff9d00;
+	height: 65px;
+	font-size: 16px;
+	border: none;
+}
+.ph-titel>.ph-ticketactive:hover {
+	border: none;
+}
+/* 修改特价背景颜色 */
+.ant-ribbon{
+	background-color: red !important;
+	position: absolute;
+	top: 0px !important;
+}
+.ant-ribbon-corner{
+color: red !important;
+}
+
+/* 用户头像昵称 */
+#ph-headuser {
+	width: 300px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+#ph-headuser>span {
+	margin-left: 10px;
+	position: relative;
+	top: 0px;
+}
+
+#ph-headuser:hover{
+	border: none;
+	cursor: pointer;
+}
+.ph-headPhoto {
+	width: 40px;
+	height: 40px;
+	margin: 0px;
+}
+#ph-headuser>.ph-headPhoto>img {
+	margin-top: 0;
+}

@@ -1,0 +1,44 @@
+.ph-routes{
+	background-color: #8cc227;
+	width: 314px;
+	height: 50px;
+	margin: 20px auto;	
+	border-radius: 8px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	box-shadow: 1px 2px 1px 0 rgb(110, 109, 109);
+	transition:background-color .5s;
+}
+.ph-routes:hover{
+	background-color:  #5b850de5;
+	transition:background-color .5s;
+}
+.mr-mylunbo{
+	width: 1200px;
+	height: 420px;
+	margin: 20px auto;
+}
+.mr-lunbo{
+	height: 420px;
+	color:#fff;
+	text-align: center;
+	background:#364d79;
+	position: relative;
+}
+.mr-character{
+	height: auto;
+	width: 800px;
+	position: absolute;
+	top: 30%;
+	left: 17%;
+	font-size: 20px;
+}
+.mr-characterP{
+	font-size:25px;
+}
+.mr-characterSP{
+	font-size:35px;
+	font-weight: 100;
+}

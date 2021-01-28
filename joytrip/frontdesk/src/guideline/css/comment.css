@@ -1,0 +1,46 @@
+.imgbox{
+    width: 156px;
+}
+.onloadbox{
+    display: flex;
+    margin: 20px 0 0 0px;
+}
+.onloadbox .left{
+    width: 300px;
+    margin-left: 200px;
+}
+.onloadbox .left img{
+    padding: 5px;
+}
+textarea.ant-input{
+    width: 500px;
+}
+.onloadbox .right{
+    width: 800px;
+}
+.postvw{
+    position: absolute;
+    top: 85px;
+    right:  100px;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    background-color: #cccccc;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.postvw:hover{
+    background-color: #ff9d00;
+    border-color: #ff9d00 ;
+}
+.showsview{
+    margin: 20px 0 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9d9d9;
+    color: #666;
+}
+.showsview span{
+    position: relative;
+    left: 500px;
+}

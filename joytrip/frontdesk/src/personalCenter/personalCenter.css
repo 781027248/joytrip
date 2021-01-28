@@ -1,0 +1,6 @@
+.pe-box {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+}

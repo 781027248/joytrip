@@ -1,0 +1,58 @@
+.petvl-box {
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 20px;
+	position: relative;
+}
+.petextbox {
+	box-sizing: border-box;
+}
+.petvl-textarea {
+	width: 1100px;
+	height: 200px;
+	border: #CCCCCC solid 1px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	padding: 10px 20px;
+	overflow-y: scroll;
+	outline: none;
+}
+.petvl-btn {
+	width: 80px;
+	background-color: #ff9e00;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin: 5px auto 20px auto;
+	border-radius: 5px;
+}
+.petvl-btn:hover {
+	background-color: #fea515;
+	cursor: pointer;
+}
+.petvl-notebox {
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 18px;
+	/* border-top: #CCCCCC solid 1px; */
+}
+.petvl-notebox>div {
+	padding: 10px 20px;
+	position: relative;
+	width: 100%;
+	background-color: #E8E8E8;
+	margin-top: 20px;
+}
+.penotetime {
+	margin-bottom: 2px;
+	height: 40px;
+}
+.pedelnote {
+	width: 80px;
+	border-radius: 5px;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+}

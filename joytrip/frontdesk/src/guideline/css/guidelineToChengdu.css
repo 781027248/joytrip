@@ -1,0 +1,61 @@
+.tochengduTop{
+    margin: 20px 0 0 20px;
+}
+.tochengduTop a{
+    color: #B5600D;
+    font-size: 12px;
+}
+.tochengduTop a:hover{
+    color: #B5600D;
+    text-decoration: underline;
+}
+.showinfo{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.showbrief{
+    margin-left: 40px;
+}
+.showbrief h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: #444444;
+    line-height: 30px;
+    margin-top: 6px;
+}
+.showbrief p{
+    font-size: 12px;
+    font-size: 16px;
+    color: #666;
+    line-height: 18px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 512px;
+    background: #F3F3F3;
+    padding: 14px;
+}
+.share{
+    font-size: 10px;
+    color: #666;
+}
+.showsHead{
+    display: flex;
+}
+.showsHead img{
+    margin-left: 10px;
+}
+.getimgsbox{
+    margin-left: 190px;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.getimgsbox img{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+

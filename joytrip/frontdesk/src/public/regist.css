@@ -1,0 +1,97 @@
+
+.re-box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(./taodao.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	top: 0px;
+	z-index: 2;
+}
+
+.re-content {
+	width: 400px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin: 80px auto;
+	padding-top: 40px;
+	box-sizing: border-box;
+	box-shadow: 1px 10px 20px#FFFFFF;
+	opacity: 0.8;
+}
+
+.re-iptbox {
+	height: 40px;
+	width: 280px;
+	position: relative;
+	/* left: 100px; */
+	font-size: 16px;
+	margin: 0 auto;
+}
+.re-iptbox>span {
+	display: inline-block;
+	width: 70px;
+	margin-right: 5px;
+}
+.re-iptbox>input {
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border: #d9d9d9 solid 1px;
+	height: 30px;
+}
+.re-iptbox>input:hover {
+	border: #ffa322 solid 1px;
+}
+.re-iptbox>input:focus {
+	border: #ffa322 solid 1px;
+}
+.re-tips,.re-gologin {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #F5222D;
+}
+.re-gologin>div {
+	color: #ffa322;
+	cursor: pointer;
+	width: 120px;
+	margin: 0 auto;
+}
+.re-gologin>div:hover {
+	color: #ff7149;
+}
+
+.re-btnbox {
+	width: 200px;
+	height: 40px;
+	box-sizing: border-box;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.re-btnbox>div {
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20px;
+	color: #FFFFFF;
+	background-color: #1890ff;
+	font-size: 18px;
+	cursor: pointer;
+}
+.re-regist:hover {
+	background-color: #40a9ff;
+}
+.re-btnbox>.re-cancel {
+	background-color: #f2f4f5;
+	color: #333333;
+}
+.re-btnbox>.re-cancel:hover {
+	background-color: #E5E5E5;
+}

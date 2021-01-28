@@ -1,0 +1,45 @@
+.slidertitle{
+    height: 50px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    line-height: 48px;
+    text-align: center;
+}
+.guidelinebox .ant-layout-sider-children {
+    background-color: #f0f2f5;
+}
+img{
+    margin-top: 10px;
+}
+.sidernav{
+    text-align: center;
+}
+.sidernav p{
+    margin: 5px 0;
+    text-align: center;
+}
+ .linkbox p{
+    display: block;
+    width: 170px;
+    height: 40px;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px solid #f7f7f7;
+    line-height: 24px;
+    margin-left: 40px;
+    padding: 20px 0;
+}
+.linkbox p span{
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ff9d00;
+}
+.linkbox p a{
+    color: #333;
+    font-size: 14px;
+}
+.linkbox p a:hover{
+    color:  #ff9d00;
+    text-decoration: underline;
+}

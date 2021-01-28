@@ -1,0 +1,30 @@
+.pe-navbox {
+	width: 100%;
+	min-width: 800px;
+	height: 46px;
+	background-color: rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	position: fixed;
+	top: 0px;
+	z-index: 3;
+}
+
+.pe-nav {
+	display: flex;
+	color: #FFFFFF;
+	line-height: 46px;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.pe-nav>div {
+	box-sizing: border-box;
+	height: 46px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.pe-nav>div:hover {
+	background-color: rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}

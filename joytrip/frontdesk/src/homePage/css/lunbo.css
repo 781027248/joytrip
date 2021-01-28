@@ -1,0 +1,79 @@
+/* 轮播图 */
+.contentStyle{
+	height: auto;
+	width: 100%;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+}
+.contentStyle>img{
+	margin: 0;
+}
+.lunboImg{
+	width: 100% !important;    
+	position: relative !important;
+	height: 658px !important;
+}
+.lunboImg img{
+	width: 100%;
+	display: block;
+}
+.ph-lunboBac{
+	position: relative;
+}
+/* 箭头样式 */
+.ph-jiantou{	
+	font-size: 30px;
+	color: rgb(240, 238, 238);
+	opacity:0;
+}
+.ph-left,.ph-right{
+	position: absolute;
+	top: 50%;
+	background-color: rgba(74, 74, 77, 0.596);
+	width: 0;
+	height: 0;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	transition: all, transform 2s;
+	transform:translateX(0px);
+	box-sizing: border-box;
+}
+.ph-left{	
+	left: 20px;
+	padding-right: 5px;
+}
+.ph-right{
+	right: 20px;
+	padding-left: 5px;
+}
+/* 鼠标滑过样式 */
+.ph-lunboBac:hover .ph-left{
+	width: 50px;
+	height:50px;
+	transition: all, transform 1s;
+	transform:translateX(25px);
+	cursor:pointer;
+}
+.ph-lunboBac:hover .ph-right{
+	width: 50px;
+	height:50px;
+	transition: all, transform 1s;
+	transform:translateX(-25px);
+	cursor:pointer;
+}
+.ph-lunboBac:hover .ph-jiantou{
+	opacity:1;
+}
+/* 鼠标滑过箭头内部样式 */
+.ph-left:hover{
+	cursor:pointer;
+	border: 2px solid rgba(207, 194, 7, 0.705);
+	color:  rgb(252, 248, 8);
+}
+.ph-right:hover{
+	cursor:pointer;
+	border: 2px solid rgba(238, 229, 101, 0.774);
+	color:  rgb(252, 248, 8);
+}

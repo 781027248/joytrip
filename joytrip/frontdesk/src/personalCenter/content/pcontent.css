@@ -1,0 +1,35 @@
+.pcontentbox {
+	width: 100%;
+	height: 360px;
+	background-color: #e5e5e5;
+}
+
+.pecon-userinfobox {
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1200px 360px;
+}
+
+.pe-con-avatar {
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	border: none;
+}
+
+.pe-con-avatar:hover,
+.pe-con-nickname:hover {
+	cursor: pointer;
+}
+
+.pe-con-nickname {
+	text-align: center;
+	font-size: 24px;
+	position: relative;
+	top: 20px;
+	color: #ff8a00;
+}

@@ -1,0 +1,45 @@
+.Pfootbox {
+	width: 100%;
+	height:250px;
+	background-color:#4f4f4f;
+}
+
+.Pfootbox>.Pfoot {
+	padding-top: 20px;
+	height:250px;
+	text-align: center;
+	color: #d5d5d5;
+	box-sizing: border-box;
+}
+.container>span{
+	margin: 15px;
+	font-size: 16px;
+}
+.pfoot-lianxi{
+	margin: 15px;
+	font-size: 16px;
+}
+.pfoot-name{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	border-radius: 5px;
+	margin: 5px; 
+  outline:none;  
+	border:1px solid rgb(80, 80, 80);
+	box-sizing: border-box;
+}
+.pfoot-submit{
+	width: 40px;
+	height: 40px;
+	margin: 5px; 
+	color: #fff;
+	background-color:  rgba(197, 194, 194, 0);
+	outline:none;
+	border-radius:40px;
+	border: 1px solid rgb(204, 199, 199);
+}
+.pfoot-submit:hover{
+	border: 1px solid #ff9d00;
+	color: #ff9d00;
+}

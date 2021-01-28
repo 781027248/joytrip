@@ -1,0 +1,66 @@
+.wrap{
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 0px;
+    /* background-color: #fff; */
+}
+.wrap .leftbox{
+    margin-top: 42px;
+    width: 250px;
+    height:220px;
+    box-sizing: border-box;
+}
+.leftbox .ant-layout .ant-layout-header{
+    padding: 0 56px;
+    height: 800px;
+    line-height: 64px;
+    background: white;
+}
+.leftbox .ant-layout-header ul li {
+    border: 1px solid #ddd;
+}
+.searchbox{
+    width: 255px;
+    border: 2px #FFA800 solid;
+    height: 40px;
+    margin-top: 10px;
+    text-indent: 50px;
+}
+.searchicon{
+    position: relative;
+    top: 6px;
+    right: 240px;
+    font-size: 30px;
+    color: #FFA800;
+}
+
+.rightbox{
+    margin-top: 30px;
+    width: 700px;
+    height: 340px;  
+}
+.desbox{
+    position: relative;
+}
+.desbox .destination{
+     display: none;
+     width: 255px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     border: 1px solid #FFA800;
+     position: absolute;
+     top: 49px;
+     text-align: center;
+}
+.desbox .destination a{
+    color: #666;
+    padding: 0 5px 0 5px;
+
+}
+.desbox .destination a:hover{
+    text-decoration: underline;
+    color:#FFA800;
+}

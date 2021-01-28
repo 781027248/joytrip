@@ -1,0 +1,11 @@
+.peorderbox {
+	width: 1200px;
+}
+.peorders {
+	width: 1000px;
+	background-color: #F0F0F0;
+	/* height: 100px; */
+	margin: 10px auto;
+	box-sizing: border-box;
+	/* display: flex; */
+}

@@ -1,0 +1,65 @@
+.ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content{
+       overflow:visible !important;
+}
+
+h3{
+       font-size: 20px;
+       color: #333;
+}
+.contentbox{
+       margin-left: 100px;
+}
+.itemsbox{
+       border-top: 1px solid #e5e5e5;
+}
+.itemsbox>p{
+       margin-bottom: 15px;
+       font-size: 20px;
+       color: #333;
+}
+.initembox img{
+       margin: 0 20px 20px 0;
+}
+.initembox{
+       display: flex;
+       justify-content: space-between;
+}
+.itemsbox .top{
+ width: 140px;
+ height: 30px;
+ border-radius: 15px;
+ border: 1px solid #ff9d00;
+ text-align: center;
+ line-height: 30px;
+ margin: 10px 0;
+ float: right;
+}
+.itemsbox .top .span1,.itemsbox .top .span2{
+       font-size: 16px;
+       color: #ff9d00;
+}
+.itemsbox .top .span1{
+       margin-right: 10px;
+}
+.itemsbox .top .span2{
+       margin-left: 10px;
+}
+.onloadbox .right{
+       position: relative;
+}
+.postvw{
+       position: absolute;
+       top: 58px;
+       right: -100px;
+       width: 80px;
+       height: 40px;
+       border: 1px solid #cccccc;
+       background-color: #cccccc;
+       text-align: center;
+       line-height: 40px;
+       border-radius: 10px;
+   }
+   .postvw:hover{
+          background-color:#ff9d00 ;
+          border-color:#ff9d00 ;
+   }

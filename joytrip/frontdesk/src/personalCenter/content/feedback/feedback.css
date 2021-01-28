@@ -1,0 +1,43 @@
+.fdbbox {
+	position: relative;
+	width: 1200px;
+	box-sizing: border-box;
+}
+.fdbtips {
+	font-size: 18px;
+	margin-left: 120px;
+}
+.fdbtextcon {
+	height: 200px;
+	width: 1000px;
+	border: #CCCCCC solid 1px;
+	margin: 10px 100px;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	font-size: 20px;
+	outline: none;
+}
+.fdbsubmit {
+	background-color: #ff9e00;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	left: 550px;
+}
+.fdbsubmit:hover {
+	background-color: #fea515;
+	cursor: pointer;
+}
+.fdb-ftips {
+	width: 100%;
+	text-align: center;
+	height: 30px;
+}

@@ -1,0 +1,98 @@
+.ph-tab{
+	width: 1200px;
+	margin: 0px auto;
+	height: 248px;
+	padding: 42px 0px 46px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.ph-tabul{
+	display: flex;
+	justify-content: space-between;
+}
+.ph-tabul li{
+	width: 158px;
+	height: 160px;
+	list-style: none;
+	border-radius: 5px;
+	background-color: #2200f8;
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	font-size: 16px;
+	z-index: 2;
+}
+/* 背景颜色 */
+#ph-li1{
+	background-color: #2c92f8;	
+}
+#ph-li2{
+	background-color: #f56247;;
+}
+#ph-li3{
+	background-color: #65c4fc;
+}
+#ph-li4{
+	background-color: #faaf4c;
+}
+#ph-li5{
+	background-color: #69bca6;
+}
+#ph-li6{
+	background-color: #b7d637;
+}
+.ph-i{
+	width: 62px;
+	height: 67px;
+	display: block;
+	margin: 0px auto 14px;  
+	z-index: 2;
+	background:url(../lunboImg/ico.png) no-repeat;
+	transition: transform 0.8s;
+}
+/* 图标位置设置 */
+.ph-ico1{
+	background-position: 0px -260px;
+}
+.ph-ico2{
+	background-position: 0px -327px;
+	width: 82px;
+	height: 67px;
+}
+.ph-ico3{
+	background-position: 0px -528px;
+}
+.ph-ico4{
+	background-position: 0px -461px;
+}
+.ph-ico5{
+	background-position: 0px -394px;
+}
+.ph-ico6{
+	background-position: 0px -595px;
+}
+.ph-hoverB{
+	width: 0;
+	height: 0;
+	background-color: rgba(26, 25, 25, 0.39);
+	position: absolute;
+	bottom: -150px;
+	left: -150px;
+	border-radius: 50%;
+	transition: width 0.8s, height 0.8s;
+}
+/* 鼠标滑过样式 */
+.ph-tabul li:hover .ph-hoverB{
+	width: 380px;
+	height: 380px;
+	transition: width 0.8s, height 0.8s;
+}
+.ph-tabul li:hover .ph-i{
+	transform: rotateY(180deg);
+	transition: transform 0.8s;
+}
+.ph-tabul li:hover{
+	cursor:pointer;
+}

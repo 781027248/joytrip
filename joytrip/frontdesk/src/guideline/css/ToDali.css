@@ -1,0 +1,60 @@
+.toDaliTop{
+    margin: 20px 0 0 20px;
+}
+.toDaliTop a{
+    color: #B5600D;
+    font-size: 12px;
+}
+.toDaliTop a:hover{
+    color: #B5600D;
+    text-decoration: underline;
+}
+.Dalishowinfo{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.Dalishowbrief{
+    margin-left: 40px;
+}
+.Dalishowbrief h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: #444444;
+    line-height: 30px;
+    margin-top: 6px;
+}
+.Dalishowbrief p{
+    font-size: 12px;
+    font-size: 16px;
+    color: #666;
+    line-height: 18px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 512px;
+    background: #F3F3F3;
+    padding: 14px;
+}
+.Dalishare{
+    font-size: 10px;
+    color: #666;
+}
+.DalishowsHead{
+    display: flex;
+}
+.DalishowsHead img{
+    margin-left: 10px;
+}
+.Daligetimgsbox{
+    margin-left: 190px;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Daligetimgsbox img{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
